@@ -199,10 +199,20 @@ table {
 
 .site-nav {
   right: 0;
+  font-family: europa;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
   text-transform: uppercase;
   margin-left: auto;
   flex: 0 1 auto;
-  line-height: 54px; }
+  line-height: 54px;
+  display: flex;
+  flex-direction: column; }
+  .site-nav .trigger {
+    display: flex;
+    flex-direction: row;
+  }
   .site-nav .nav-trigger {
     display: none; }
   .site-nav .menu-icon {
@@ -214,42 +224,12 @@ table {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      position: absolute;
-      top: 9px;
-      right: 15px;
-      background-color: #fdfdfd;
-      border: 1px solid #e8e8e8;
-      border-radius: 5px;
-      text-align: right; }
-      .site-nav label[for="nav-trigger"] {
-        display: flex;
-        float: right;
-        width: 36px;
-        height: 36px;
-        z-index: 2;
-        cursor: pointer; }
-      .site-nav .menu-icon {
-        display: flex;
-        float: right;
-        width: 36px;
-        height: 26px;
-        line-height: 0;
-        padding-top: 10px;
-        text-align: center; }
-        .site-nav .menu-icon > svg {
-          fill: #424242; }
-      .site-nav input ~ .trigger {
-        clear: both;
-        display: none; }
-      .site-nav input:checked ~ .trigger {
-        display: flex;
-        padding-bottom: 5px; }
-      .site-nav .page-link {
-        display: flex;
-        padding: 5px 10px;
-        margin-left: 20px; }
-        .site-nav .page-link:not(:last-child) {
-          margin-right: 0; } }
+      flex-direction: column; }
+    .site-nav .trigger {
+      display: flex;
+      flex-direction: column;
+    }
+  }
 
 /**
  * Site footer
@@ -524,15 +504,15 @@ table {
   text-transform: uppercase;
   max-width: 1000px;
   font-size: 36px;
-  font-size: 5vw; }
+  font-size: -webkit-calc(14px + 3vw);
+  font-size: calc(14px + 3vw); }
 
 .date {
-  font-family: ltc-bodoni-175, serif;
+  font-family: europa;
   font-style: normal;
-  font-weight: 400;
+  font-weight: 300;
   text-transform: uppercase;
-  font-size: 10px;
-  font-size: 2vw; }
+  font-size: 14px; }
 
 .title-container img {
   object-fit: cover;
@@ -562,10 +542,10 @@ table {
   align-items: center;
   z-index: 1;
   position: relative;
-  padding-right: 6px;
-  padding-left: 6px;
-  margin-right: 60px;
-  margin-left: 60px;
+  padding-right: 0px;
+  padding-left: 0px;
+  margin-right: 2%;
+  margin-left:  2%;
   margin-top: 100px; }
   @media screen and (max-width: 800px) {
     .header-wrapper {
