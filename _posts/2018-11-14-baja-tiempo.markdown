@@ -2,6 +2,8 @@
 layout: post
 title:  Baja Tiempo
 date:   2018-11-14 19:56:48 -0600
+author: Caitlin Hewitt
+comments: true
 title-image: /assets/img/baja-tiempo/descent.jpg
 ---
 
@@ -13,8 +15,10 @@ realization comes to my face as well. “Yes, we did bike to Baja California,
 Mexico from Alaska!” All 5,500 miles of our indirect and mountainous route
 brought us to this old man’s regular desayuneria just south of Tecate.
 
-![Reflection of Caitlin and Devon climbing hill in
-Baja](/assets/img/baja-tiempo/mirror.jpg)
+<div>
+  <img src="/assets/img/baja-tiempo/mirror.jpg"
+       alt="Reflection of Caitlin and Devon climbing hill in Baja">
+</div>
 
 His excitement sparked something in me that reminded me of a phone call to
 my Marnee (that’s what I call my paternal grandmother) before we started
@@ -34,7 +38,9 @@ might have spent all of his eighty or so years not far from that very spot,
 I saw that twinkle of an adventurer’s spirit in him, and I appreciated his
 support too.
 
-....
+...
 
-![Descending a dirt road along the Pacific coast of Baja
-California](/assets/img/baja-tiempo/descent.jpg)
+<div>
+  <img src="/assets/img/baja-tiempo/descent.jpg"
+       alt="Descending a dirt road along the Pacific coast of Baja California">
+</div>

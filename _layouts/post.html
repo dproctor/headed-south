@@ -16,14 +16,15 @@ layout: default
     <p class="post-meta">
       <time class="dt-published" datetime="{{ page.date | date_to_xmlschema }}" itemprop="datePublished">
       </time>
-      {%- if page.author -%}
-        • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-      {%- endif -%}</p>
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
     {{ content }}
   </div>
+
+  {%- if page.author -%}
+    <div itemprop="author" itemscope itemtype="http://schema.org/Person"><div class="p-author h-card" itemprop="name">{{ page.author }}</div></div>
+  {%- endif -%}</p>
 
   {%- if site.disqus.shortname -%}
     {%- include disqus_comments.html -%}
