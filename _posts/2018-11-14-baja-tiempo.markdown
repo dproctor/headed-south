@@ -16,7 +16,7 @@ Mexico from Alaska!” All 5,500 miles of our indirect and mountainous route
 brought us to this old man’s regular desayuneria just south of Tecate.
 
 <div>
-  <img src="assets/img/baja-tiempo/mirror.jpg"
+  <img src="{{ site.baseurl }}/assets/img/baja-tiempo/mirror.jpg"
        alt="Reflection of Caitlin and Devon climbing hill in Baja">
 </div>
 
@@ -41,6 +41,6 @@ support too.
 ...
 
 <div>
-  <img src="assets/img/baja-tiempo/descent.jpg"
+  <img src="{{ site.baseurl }}/assets/img/baja-tiempo/descent.jpg"
        alt="Descending a dirt road along the Pacific coast of Baja California">
 </div>
