@@ -16,9 +16,9 @@ world, something like 18,000 miles.  And we simply couldn’t come up with any
 good reason why we shouldn’t do it.
 
 <div>
-  <img src="assets/img/caitlin-devon-dressed-up.jpg"
+  <img src="{{ site.baseurl }}/assets/img/caitlin-devon-dressed-up.jpg"
        alt="Real life">
-  <img src="assets/img/caitlin-devon-dressed-down.jpg"
+  <img src="{{ site.baseurl }}/assets/img/caitlin-devon-dressed-down.jpg"
        alt="Bike life">
 </div>
 
