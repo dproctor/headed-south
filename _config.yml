@@ -17,7 +17,7 @@ title: Headed South
 email: devon@proctors.us
 description: >- # this means to ignore newlines until "baseurl:"
   Bikepacking from Alaska to Argentina, June 2018 to June 2019.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "/headed-south" # the subpath of your site, e.g. /blog
 url: "https://dproctor.github.io/headed-south/" # the base hostname & protocol for your site, e.g. http://example.com
 instagram_username: clhewitt
 disqus.shortname: headed-south
