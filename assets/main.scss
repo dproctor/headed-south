@@ -1,3 +1,8 @@
+---
+---
+
+@import "minima";
+
 /**
  * Reset some basic elements
  */
@@ -134,12 +139,14 @@ pre {
  * Wrapper
  */
 .wrapper {
+  max-width: 100%;
   margin-right: auto;
   margin-left: auto;
   padding-right: 6px;
   padding-left: 6px; }
   @media screen and (max-width: 800px) {
     .wrapper {
+      max-width: 100%;
       padding-right: 6px;
       padding-left: 6px; } }
 
@@ -192,6 +199,8 @@ table {
 .site-header {
   position: absolute;
   width: 100%;
+  border-top: none;
+  border-bottom: none;
 }
 .site-header.title-style-header {
   position: relative;
@@ -209,7 +218,7 @@ table {
     color: #424242; }
 
 .site-nav {
-  right: 0;
+  right: 0px;
   font-family: europa;
   font-style: normal;
   font-weight: 300;
@@ -237,10 +246,17 @@ table {
       margin-right: 20px; }
   @media screen and (max-width: 600px) {
     .site-nav {
-      flex-direction: column; }
+      position: relative;
+      top: 0px;
+      background-color: transparent;
+      border: none;
+      float: right; }
     .site-nav .trigger {
       display: flex;
       flex-direction: column;
+    }
+    .site-nav .page-link {
+      padding: 0;
     }
   }
 
@@ -613,10 +629,11 @@ table {
 span[itemprop="author"] {
   width: 100%;
 }
+
 .p-author {
   font-family: europa;
   font-style: normal;
   font-weight: 300;
   text-transform: uppercase;
-  text-align: center
+  text-align: center;
 }
