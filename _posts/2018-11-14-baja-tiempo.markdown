@@ -4,7 +4,7 @@ title:  Baja Tiempo
 date:   2018-11-14 19:56:48 -0600
 author: Caitlin Hewitt
 comments: true
-title-image: assets/img/baja-tiempo/descent.jpg
+title-image: /assets/img/baja-tiempo/descent.jpg
 ---
 
 
