@@ -602,14 +602,14 @@ table {
   object-fit: cover;
   overflow: hidden;
   max-height: 90vh;
-  min-height: 55vh;
+  min-height: 75vh;
   min-width: 100%;
-  filter: brightness(90%);
+  filter: brightness(80%);
 }
 
 /*Logo*/
 .logo img {
-  max-height: 180px;
+  max-height: 16vh;
   flex: 0 1 auto;
   filter: invert(100%);
 }
@@ -619,6 +619,7 @@ table {
 }
 
 .logo {
+  padding: 10px;
   flex: 0 1 auto;
   position: absolute;
   left: 50%;
@@ -640,6 +641,9 @@ table {
     .header-wrapper {
       padding-right: 6px;
       padding-left: 6px; } }
+  @media screen and (max-height: 700px) {
+    .header-wrapper {
+      margin-top: 50px; } }
 
 span[itemprop="author"] {
   width: 100%;
