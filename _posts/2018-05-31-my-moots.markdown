@@ -1,0 +1,21 @@
+---
+layout: post
+title:  My Moots
+date:   2018-05-31 19:56:48 -0600
+author: Devon Proctor
+comments: true
+title-image: /assets/img/my-moots/moots.jpg
+---
+
+My bike is almost ready to go!
+
+I’ll be riding a [Moots Baxter 29”](http://moots.com/bike/baxter-29/), built up
+by the fine folks at [Studio Velo](http://www.studiovelocycling.com/) in Mill
+Valley.
+
+We’ll share a complete gear list before we take off.
+
+<div>
+  <img src="{{ site.baseurl }}/assets/img/my-moots/moots.jpg"
+       alt="My trusty steed">
+</div>
