@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Of Mountains and Mud
-date:   2018-07-29 19:56:48 -0600
+date:   2018-07-29 10:00:00 -0600
 author: Caitlin Hewitt
 comments: true
 title-image: /assets/img/of-mountains-and-mud/colorful-mountain-reflections.jpg

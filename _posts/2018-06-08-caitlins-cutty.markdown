@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Caitlin's Cutty
-date:   2018-06-08 19:56:48 -0600
+date:   2018-06-08 10:00:00 -0600
 author: Caitlin Hewitt
 comments: true
 title-image: /assets/img/caitlins-cutty/cutthroat.jpg

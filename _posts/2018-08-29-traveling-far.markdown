@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Traveling Far
-date:   2018-08-29 19:56:48 -0600
+date:   2018-08-29 10:00:00 -0600
 author: Caitlin Hewitt
 comments: true
 title-image: /assets/img/traveling-far/imogene-pass.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  In the News
-date:   2018-08-25 19:56:48 -0600
+date:   2018-08-25 10:00:00 -0600
 author: Devon Proctor
 comments: true
 title-image: /assets/img/in-the-news/wyoming-sunset.jpg

@@ -1,7 +1,7 @@
 ---
 layout: post
 title:  Land without Measure
-date:   2018-06-28 19:56:48 -0600
+date:   2018-06-28 10:00:00 -0600
 author: Devon Proctor
 comments: true
 title-image: /assets/img/land-without-measure/tundra.jpg
