@@ -448,7 +448,7 @@ I always inflate it using the included inflater, as I found with a previous pad
 warm, humid air into the pad every night was the perfect recipe for all sorts of
 undesirable colonies to develop inside.
 
-Finally, I never camp without my <a class="item good new" href="">Sea to Summit
+Finally, I never camp without my <a class="item good" href="">Sea to Summit
 inflatable pillow.</a> It packs down very small, and completely eliminates the
 stiff neck I always used to wake up with when I would just ball up extra clothes
 in a sad imitation of a pillow.
@@ -547,3 +547,10 @@ sometimes you just need a hole in the ground this instant, and in those cases it
 pays to have the proper tool. To be honest, I could probably get by without it
 and just use whatever is on hand for excavation, but I worry that that would
 only invite disaster.
+
+And, don't forget your <span class="item neutral">toothbrush</span> (sawed in
+half, obviously)!
+<div>
+  <img src="{{ site.baseurl }}/assets/img/gear-review/toothbrush.jpg"
+       alt="Half of a toothbrush">
+</div>
