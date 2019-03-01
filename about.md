@@ -5,15 +5,16 @@ title-style-header: true
 permalink: /about/
 ---
 
-Ever since we graduated from Stanford in 2010 and took our first bike tour from
-Berlin to Amsterdam to Paris, we have dreamed of biking across a continent (or
-two).  Despite years of squeezing in adventure to our vacations, our weekends
-and even the occasional mid-week overnight, we still craved a bigger adventure
-than our 9-5(ish) tech jobs and life in San Francisco would allow.  As soon as
-we started dreaming up just what some time off to bike might look like, we each
-pushed the vision farther until we settled on the longest mountain range in the
-world, something like 18,000 miles.  And we simply couldn’t come up with any
-good reason why we shouldn’t do it.
+Hi, we're Devon Proctor and Caitlin Hewitt. Ever since we graduated from
+Stanford in 2010 and took our first bike tour from Berlin to Amsterdam to Paris,
+we have dreamed of biking across a continent (or two). Despite years of
+squeezing in adventure to our vacations, our weekends and even the occasional
+mid-week overnight, we still craved a bigger adventure than our 9-5(ish) tech
+jobs and life in San Francisco would allow.  As soon as we started dreaming up
+just what some time off to bike might look like, we each pushed the vision
+farther until we settled on the longest mountain range in the world, something
+like 18,000 miles. And we simply couldn’t come up with any good reason why we
+shouldn’t do it.
 
 <div>
   <img src="{{ site.baseurl }}/assets/img/caitlin-devon-dressed-up.jpg"
