@@ -36,6 +36,9 @@ title-image: /assets/img/gear-review/stove-flip.jpg
   background-repeat: no-repeat;
   padding-left: 20px;
 }
+ul {
+    padding-left: 10px;
+}
 </style>
 
 Finally, after eight months, I’m ready to pack.
