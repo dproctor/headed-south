@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html>
+	<head>
+    <meta charset="utf-8" />
+    <script type="text/javascript"
+      src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script type="text/javascript"
+      src="{{ site.baseurl }}/assets/simple-lightbox.min.js"></script>
+    <link rel="stylesheet" type="text/css"
+      href="{{ site.baseurl }}/assets/simplelightbox.min.css">
+		<title>Portfolio</title>
+	</head>
+	<body>
+<style>
+.gallery {
+    max-width:2000px;
+    margin:0 auto; /*center aligned*/
+    padding:0;
+    font-size:0; /* Remember to change it back to normal font size if have captions */
+    list-style:none;
+    background-color:#000;
+}
+.gallery a {
+    display: inline-block;
+    *display:inline;/*for IE6 - IE7*/
+    width:25%;
+    vertical-align:middle;
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
+/* The wrapper for each item */
+a {
+    display:block;
+    position: relative;
+    overflow:hidden;
+}
+/* If have the image layer */
+img {
+    display:block;
+    width: 100%;
+    height: auto;
+    border:none;
+    transform:scale(1);
+    transition:all 1s;
+}
+
+.gallery img:hover {
+    transform:scale(1.05);
+}
+
+@media (max-width: 9000px) {
+    .gallery a {
+        width:33.33%;
+        max-height: 400px;
+    }
+}
+
+@media (max-width: 1500px) {
+    .gallery a {
+        width:50%;
+    }
+}
+
+@media (max-width: 600px) {
+    .gallery a {
+        max-height: 200px;
+    }
+}
+</style>
+    <div class="gallery">
+    {% for image in site.static_files %}
+        {% if image.path contains 'assets/img/' %}
+          {% if image.path contains '.jpg' %}
+          <a href="{{ site.baseurl }}{{ image.path }}">
+            <img src="{{ site.baseurl }}{{ image.path }}" alt="" title="">
+          </a>
+          {% endif %}
+        {% endif %}
+    {% endfor %}
+    </div>
+    <script>
+      $(function(){
+        var $gallery = $('.gallery a').simpleLightbox();
+      })
+    </script>
+	</body>
+</html>
