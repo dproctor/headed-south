@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  Mid-trip Gear Review Part 1 - Clothing and Camping
+title:  Gear Review
 date:   2019-03-01 10:00:00 -0600
 author: Devon Proctor
 comments: true
